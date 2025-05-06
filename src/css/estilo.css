@@ -44,7 +44,7 @@ header #logo{
 .banner #image{
     width: 100%;
     height: 100vh;
-    object-fit: cover; /*Ocupa todo o espaço*/
+    object-fit:cover; /*Ocupa todo o espaço*/
 }
 /* QUIZ*/
 #container-quiz{
@@ -92,5 +92,44 @@ header #logo{
 #proximo{
     background: rgb(0, 145, 255);
     color:#fff;
+    
+}
+.seta{
+  position: absolute;
+  top: 60%;
+  left: 90%;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  height: 24px;
+  border-radius: 50%;
+  & :hover{
+    background-color: #CCC;
+    width: 25px;
+    height: 24px;
+    border-radius: 50%;
+}
+  
+}
+  
+ 
+
+button{
+    top: 60%;
+    width: 25px;
+    height: 24px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transform: scale(2);
+    background: #908c8c;
+    
+    & img {
+        width: 20px;
+      
+    }
+    
+   
+    
     
 }
